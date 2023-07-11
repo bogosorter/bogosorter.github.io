@@ -9,8 +9,6 @@ import typexImage from './Images/typex.png';
 import sudokuImage from './Images/sudoku.png';
 import periodicImage from './Images/periodic.png';
 import picsImage from './Images/pics.png';
-import './css/theme.css';
-import './css/spacers.scss';
 import './App.css';
 
 export default function App() {
