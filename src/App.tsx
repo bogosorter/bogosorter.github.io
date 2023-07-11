@@ -33,7 +33,7 @@ export default function App() {
             description="I love computers because they let me unleash my inner bug-maker. Sometimes I even fix those bugs :)"
             email="luiswbarbosa@gmail.com"
         />
-        <Container>
+        <Container className='p-4'>
             <Project
                 title="Musicly"
                 description="A simple and elegant music player which is cross-platform and open-source. Musicly was built using React and Electron."

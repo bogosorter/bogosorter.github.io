@@ -14,7 +14,7 @@ export default function Project({ title, description, href, imageSrc }: ProjectP
         <Col xs={12} md={3} className="project-image">
             <Image src={imageSrc} fluid style={{ borderRadius: '10px' }} />
         </Col>
-        <Col xs={12} md={5} className="project-description d-flex flex-column justify-content-center">
+        <Col xs={12} md={5} className="project-description d-flex flex-column justify-content-center align-items-md-start align-items-center">
             <h1>{title}</h1>
             <p>{description}</p>
         </Col>
