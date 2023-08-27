@@ -35,7 +35,7 @@ export default function App() {
             <Project
                 title="Musicly"
                 description="A simple and elegant music player which is cross-platform and open-source. Musicly was built using React and Electron."
-                href="https://m7kra.github.io/musicly"
+                href="https://m7kra.github.io/Musicly"
                 imageSrc={musiclyImage}
             />
             <Project
