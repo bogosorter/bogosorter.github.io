@@ -9,6 +9,7 @@ import typexImage from './Images/typex.png';
 import sudokuImage from './Images/sudoku.png';
 import periodicImage from './Images/periodic.png';
 import picsImage from './Images/pics.png';
+import flowImage from './Images/flow.png';
 import './App.css';
 
 export default function App() {
@@ -37,6 +38,12 @@ export default function App() {
                 description="A simple and elegant music player which is cross-platform and open-source. Musicly was built using React and Electron."
                 href="https://m7kra.github.io/Musicly"
                 imageSrc={musiclyImage}
+            />
+            <Project
+                title="FlowFields"
+                description="M7kra's hidden talent for art (and plagiarism)"
+                href="https://m7kra.github.io/flow"
+                imageSrc={flowImage}
             />
             <Project
                 title="TypeX"
