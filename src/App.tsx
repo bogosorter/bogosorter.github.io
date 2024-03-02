@@ -15,20 +15,20 @@ import './App.css';
 export default function App() {
     return <div id="app">
         <Header
-            title="M7kra"
+            title="bogosorter"
             logoLight={
                 <Image src={logoDark} fluid />
             }
             logoDark={
                 <Image src={logoLight} fluid />
             }
-            github="https://github.com/m7kra"
+            github="https://github.com/bogosorter"
         />
         <Cover
             logo={
                 <Image src={logo} fluid style={{ borderRadius: '50%' }} />
             }
-            title="M7kra"
+            title="bogosorter"
             description="I love computers because they let me unleash my inner bug-maker. Sometimes I even fix those bugs :)"
             email="luiswbarbosa@gmail.com"
         />
@@ -36,37 +36,37 @@ export default function App() {
             <Project
                 title="Musicly"
                 description="A simple and elegant music player which is cross-platform and open-source. Musicly was built using React and Electron."
-                href="https://m7kra.github.io/Musicly"
+                href="https://bogosorter.github.io/Musicly"
                 imageSrc={musiclyImage}
             />
             <Project
                 title="FlowFields"
-                description="M7kra's hidden talent for art (and plagiarism)"
-                href="https://m7kra.github.io/flow"
+                description="bogosorter's hidden talent for art (and plagiarism)"
+                href="https://bogosorter.github.io/flow"
                 imageSrc={flowImage}
             />
             <Project
                 title="TypeX"
                 description="Improve your typing speed"
-                href="https://m7kra.github.io/TypeX"
+                href="https://bogosorter.github.io/TypeX"
                 imageSrc={typexImage}
             />
             <Project
                 title="Sudoku"
                 description="An experience with constraints and backtracking"
-                href="https://github.com/m7kra/sudoku"
+                href="https://github.com/bogosorter/sudoku"
                 imageSrc={sudokuImage}
             />
             <Project
                 title="Periodic"
                 description="I needed to practice my periodic table of elements knowledge. I could have choosen a few random elements. Instead, I wound up programming a whole website to do it, which took me a little more :)"
-                href="https://m7kra.github.io/periodic"
+                href="https://bogosorter.github.io/periodic"
                 imageSrc={periodicImage}
             />
             <Project
                 title="Pics"
                 description="Some of my favorite shots. Why not?"
-                href="https://m7kra.github.io/pics"
+                href="https://bogosorter.github.io/pics"
                 imageSrc={picsImage}
             />
         </Container>
