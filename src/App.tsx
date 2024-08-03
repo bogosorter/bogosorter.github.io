@@ -4,6 +4,7 @@ import { Image, Container } from 'react-bootstrap';
 import logo from './logo.jpg';
 import logoDark from './dark.png';
 import logoLight from './light.png';
+import elementaryImage from './Images/elementary.png';
 import musiclyImage from './Images/musicly.png';
 import typexImage from './Images/typex.png';
 import sudokuImage from './Images/sudoku.png';
@@ -34,8 +35,14 @@ export default function App() {
         />
         <Container className='p-4'>
             <Project
+                title="Elementary"
+                description="A simple and elegant markdown editor."
+                href="https://bogosorter.github.io/elementary"
+                imageSrc={elementaryImage}
+            />
+            <Project
                 title="Musicly"
-                description="A simple and elegant music player which is cross-platform and open-source. Musicly was built using React and Electron."
+                description="A simple and elegant music player that is cross-platform and open-source. Musicly was built using React and Electron."
                 href="https://bogosorter.github.io/Musicly"
                 imageSrc={musiclyImage}
             />
