@@ -6,7 +6,6 @@
   --transition: all .5s ease;
   --border-radius: 10px;
 }
-
 #cover-title {
     font-size: calc(3rem + 3vw);
     font-weight: bold;
