@@ -22,7 +22,7 @@ export default function App() {
                 <Image src={logo} fluid style={{ borderRadius: '50%' }} />
             }
             title="bogosorter"
-            description="I love computers because they let me unleash my inner bug-maker. Sometimes I even fix those bugs :)"
+            description="I use computers mainly to create bugs. Sometimes I even fix them."
             email="luiswbarbosa@gmail.com"
         />
         <Container className='p-4'>
