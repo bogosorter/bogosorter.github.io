@@ -1,0 +1,12 @@
+nav {
+    background-color: var(--surface);
+}
+
+.navbar-brand, #github-container {
+    color: var(--on-surface);
+}
+
+#github-container {
+    padding: 0.5em;
+    opacity: 0.9;
+}

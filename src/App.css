@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --surface: #ebebeb;
+    --surface-variant: #dedede;
+    --on-surface: #3c3c3c;
+    --primary: #286c93;
+    --on-primary: #f5f5f5;
+    --border-radius: 10px;
+}
+
+* {
+    font-family: "Droid Sans Mono", "monospace", monospace !important;
+}
+
+#app {
+    background-color: var(--surface);
+    color: var(--on-surface);
+}
+
+::selection {
+    background-color: var(--primary);
+    color: var(--on-primary);
+}
