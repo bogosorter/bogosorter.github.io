@@ -15,7 +15,9 @@ export default function Header() {
             </Navbar.Brand>
             <Nav className='w-100' />
             <div id='github-container'>
-                <Github size={30}/>
+                <a href="https://github.com/bogosorter/">
+                    <Github size={30}/>
+                </a>
             </div>
         </Container>
     </Navbar>

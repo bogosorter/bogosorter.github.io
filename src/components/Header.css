@@ -2,7 +2,7 @@ nav {
     background-color: var(--surface);
 }
 
-.navbar-brand, #github-container {
+.navbar-brand, #github-container a {
     color: var(--on-surface);
 }
 
