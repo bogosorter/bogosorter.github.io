@@ -1,0 +1,146 @@
+:root {
+    --accent: #286c93;
+    --surface: #ebebeb;
+    --surface-variant: #dedede;
+    --text: #3c3c3c;
+    --text-strong: #2c2c2c;
+    --text-weak: #7c7c7c;
+    --border-radius: 10px;
+}
+
+* {
+    font-family: "Droid Sans Mono", "monospace", monospace !important;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: var(--accent);
+    color: var(--surface);
+}
+
+body {
+    background-color: var(--surface);
+    color: var(--text);
+    font-family: "Droid Sans Mono", "monospace", monospace;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    padding: 1em;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        font-size: 1.2em;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    i {
+        font-size: 1.5em;
+    }
+}
+
+#cover {
+    position: relative;
+
+    height: 100vh;
+    width: 100%;
+    padding: 30em 8em;
+
+    h1 {
+        font-size: 5em;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-left: 8px;
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        max-width: 20em;
+
+        /* reflect horizontally */
+        transform: scaleX(-1);
+    }
+}
+
+@media (max-width: 768px) {
+    #cover {
+        padding: 10em 2em;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1em;
+            margin-left: 4px;
+        }
+
+        img {
+            max-width: 15em;
+        }
+    }
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: calc(min(1000px, 100vw - 100px));
+    margin: 0 auto;
+    align-items: stretch;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+@media (max-width: 800px) {
+    #projects {
+        grid-template-columns: 1fr;
+        max-width: calc(min(500px, 100vw - 40px));
+    }
+}
+
+.project {
+    background-color: var(--surface-variant);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 15px;
+    height: 100%;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    h1 {
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none !important;
+        color: var(--accent);
+        font-family: sans-serif !important;
+    }
+
+    p {
+        font-size: 0.8em;
+        text-decoration: none !important;
+        color: var(--text);
+        font-family: sans-serif !important;
+        margin: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
