@@ -46,7 +46,7 @@ nav {
 }
 
 main {
-    max-width: calc(min(60em, 100vw));
+    max-width: 60em;
     margin: 0 auto;
     padding: 2em;
     margin-bottom: 30vh;
