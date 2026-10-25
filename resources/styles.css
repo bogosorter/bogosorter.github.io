@@ -54,6 +54,14 @@ main {
 
 #cover {
     margin: 20vh 0;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
 }
 
 @media (max-width: 800px) {
@@ -106,4 +114,5 @@ main {
 
 a {
     text-decoration: none;
+    color: var(--accent);
 }
